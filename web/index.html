@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="AI4AIR survey project page: Large language models for AI research workflows."
+    >
+    <meta name="theme-color" content="#0b5f57">
+    <title>AI4AIR | LLMs for AI Research</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="AI4AIR home">
+        <span class="brand-mark" aria-hidden="true">AI4AIR</span>
+        <span>Awesome LLMs for AI Research 🤗</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#abstract">Abstract</a>
+        <a href="#contributions">Highlights</a>
+        <a href="#taxonomy">Taxonomy</a>
+        <a href="#resources">Resources</a>
+        <a href="#citation">Citation</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Survey preprint · 2026</p>
+          <h1 id="hero-title">
+            AI4AIR: A Comprehensive Survey on Large Language Models for AI Research
+          </h1>
+          <p class="hero-lead">
+            A comprehensive survey of how LLMs support data engineering, model design and
+            optimization, model evaluation, and closed-loop automation across AI research.
+          </p>
+          <div class="author-block">
+            <p class="authors">
+              <a href="https://aoxaustin.github.io">Xiang Ao</a><sup>1,2,*</sup>,
+              <a href="https://t-atlas.github.io">Junhong Lian</a><sup>1,2</sup>,
+              Hanyang Li<sup>3</sup>, Siyi Wang<sup>1,2</sup>, Yiran Qiao<sup>1,2</sup>,
+              Yi Qiao<sup>1,2</sup>, Jiaqi Xu<sup>1,2</sup>,
+              <a href="https://scholar.google.com/citations?user=tkbgSDYAAAAJ">Qing He</a><sup>1,2</sup>,
+              and
+              <a href="https://scholar.google.com/citations?user=hY8aLqAAAAAJ">Xueqi Cheng</a><sup>1,2,*</sup>
+            </p>
+            <p class="affiliations">
+              <sup>1</sup>State Key Laboratory of AI Safety, Institute of Computing Technology,
+              Chinese Academy of Sciences · <sup>2</sup>University of Chinese Academy of
+              Sciences · <sup>3</sup>National University of Singapore · <sup>*</sup>Corresponding
+              authors
+            </p>
+          </div>
+          <div class="hero-toolbar">
+            <div class="hero-badges" aria-label="Project badges">
+              <a class="badge-chip" href="https://awesome.re" aria-label="Awesome list badge">
+                <img src="https://awesome.re/badge.svg" alt="Awesome Badge">
+              </a>
+              <span class="badge-chip">
+                <img
+                  src="https://visitor-badge.laobi.icu/badge?page_id=ICT-FinD-Lab.Awesome-LLMs-for-AI-Research"
+                  alt="Visitors badge"
+                >
+              </span>
+            </div>
+            <a class="button primary" href="https://github.com/ICT-FinD-Lab/Awesome-LLMs-for-AI-Research/blob/master/assets/PDF/AI4AIR_Survey_v260601.pdf">
+              Download PDF
+            </a>
+            <a class="button secondary" href="https://github.com/ICT-FinD-Lab/Awesome-LLMs-for-AI-Research">
+              GitHub Repository
+            </a>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/intro-web.jpg" alt="AI4AIR survey taxonomy overview">
+          <figcaption>
+            Fig. 1. Illustration of the multi-faceted roles of LLMs across the iterative
+            ML-centered AI research lifecycle.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="section abstract" id="abstract" aria-labelledby="abstract-title">
+        <div class="section-header">
+          <h2 class="eyebrow section-title" id="abstract-title">Abstract</h2>
+        </div>
+        <div class="prose">
+          <p>
+            Language-mediated automation is beginning to complement the human-centered
+            trial-and-error process in AI research. Among current AI tools, large language
+            models (LLMs) have become a central interface for generation, knowledge synthesis,
+            and reasoning in research workflows. While LLMs are now widely used to support
+            general scientific workflows such as literature review and scientific writing, their
+            specific roles and deeper contributions to the core lifecycle of AI research itself
+            remain insufficiently explored in a systematic manner. To bridge this gap, this
+            survey introduces AI4AIR (short for <strong>AI</strong> for <strong>AI</strong>
+            <strong>R</strong>esearch), which comprehensively reviews LLMs as pivotal components
+            within machine learning research pipelines. We construct a structured
+            two-dimensional taxonomy. One axis spans major research domains including natural
+            language processing, computer vision, data mining, and general machine learning. The
+            other follows the research pipeline stages, encompassing data engineering, model
+            design and optimization, model evaluation, and the cross-stage closed-loop
+            automation that connects them. Within this framework, we identify five recurring
+            roles of LLMs, namely annotator, synthesizer, optimizer, evaluator, and
+            orchestrator, through which LLMs contribute to AI research workflows. We further
+            discuss bottlenecks such as contamination, hallucination, and reliability under
+            feedback-driven use, and outline future directions for improving both the efficiency
+            and the reliability of AI research and discovery.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="contributions" aria-labelledby="contributions-title">
+        <div class="section-header">
+          <h2 class="eyebrow section-title" id="contributions-title">Highlights</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span>01</span>
+            <h3>Systematic Survey of AI4AIR</h3>
+            <p>
+              To the best of our knowledge, this is the first systematic survey that summarizes
+              the utility of LLMs in ML-centered AI research, providing a structured perspective
+              on their roles across the AI research lifecycle.
+            </p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Role-Based Two-Dimensional Taxonomy</h3>
+            <p>
+              We construct a taxonomy based on LLMs' roles in machine learning model design and
+              development, systematically categorizing existing related works.
+            </p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Future Directions</h3>
+            <p>
+              Based on our review, we identify the bottlenecks of current research and discuss
+              possible future directions for leveraging advanced AI tools to improve both the
+              efficiency and effectiveness of AI research and discovery.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section taxonomy-section" id="taxonomy" aria-labelledby="taxonomy-title">
+        <div class="section-header">
+          <h2 class="eyebrow section-title" id="taxonomy-title">Taxonomy of AI4AIR</h2>
+        </div>
+        <figure class="paper-figure">
+          <img src="assets/AI4AIR_taxonomy.png" alt="Two-dimensional taxonomy of AI4AIR">
+          <figcaption>
+            Fig. 2. A two-dimensional taxonomy of AI4AIR. The domain-oriented view summarizes
+            representative AI sub-domains and tasks, while the pipeline-oriented view maps
+            recurring LLM roles to ML-centered pipeline stages.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="section resource-section" id="resources" aria-labelledby="resources-title">
+        <div class="section-header">
+          <h2 class="eyebrow section-title" id="resources-title">Resources</h2>
+        </div>
+        <p class="resource-note">
+          Curated paper entries, topic tags, and resource metadata are coming soon.
+        </p>
+        <div class="pdf-preview">
+          <div class="pdf-frame">
+            <iframe
+              src="assets/AI4AIR_Survey_v260601.pdf#view=FitH"
+              title="AI4AIR survey PDF preview"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="section citation-section" id="citation" aria-labelledby="citation-title">
+        <div class="section-header">
+          <h2 class="eyebrow section-title" id="citation-title">Citation</h2>
+        </div>
+        <p class="citation-note">
+          If this survey or repository is useful for your research, please cite the survey.
+          The formal citation will be updated after the archival version is available.
+        </p>
+        <pre><code>@article{ao2026ai4air,
+  title   = {AI4AIR: A Comprehensive Survey on Large Language Models for AI Research},
+  author  = {Ao, Xiang and Lian, Junhong and Li, Hanyang and Wang, Siyi and Qiao, Yiran and Qiao, Yi and Xu, Jiaqi and He, Qing and Cheng, Xueqi},
+  year    = {2026},
+  note    = {Preprint, under review}
+}</code></pre>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>⭐ If this project helps you, please give us a Star!</p>
+      <p>
+        Questions and suggestions:
+        <a href="https://github.com/ICT-FinD-Lab/Awesome-LLMs-for-AI-Research/issues">GitHub Issues</a>
+      </p>
+      <p>Made with ❤️ by FinD Lab @ ICT, CAS</p>
+    </footer>
+  </body>
+</html>
