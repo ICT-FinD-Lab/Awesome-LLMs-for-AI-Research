@@ -91,13 +91,7 @@
 
 ## 📈 Star 历史
 
-<a href="https://www.star-history.com/?type=date&repos=ICT-FinD-Lab%2FAwesome-LLMs-for-AI-Research">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ICT-FinD-Lab/Awesome-LLMs-for-AI-Research&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ICT-FinD-Lab/Awesome-LLMs-for-AI-Research&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ICT-FinD-Lab/Awesome-LLMs-for-AI-Research&type=date&legend=top-left" />
- </picture>
-</a>
+[![Star History Chart](https://api.star-history.com/chart?repos=ICT-FinD-Lab/Awesome-LLMs-for-AI-Research&type=date&legend=top-left)](https://www.star-history.com/?repos=ICT-FinD-Lab%2FAwesome-LLMs-for-AI-Research&type=date&legend=top-left)
 
 ## 📧 联系方式
 
