@@ -6,6 +6,7 @@
   <a href="README.md">English</a> •
   <a href="https://ict-find-lab.github.io/Awesome-LLMs-for-AI-Research/">项目主页</a> •
   <a href="PDF/AI4AIR_Survey_v260601.pdf">论文PDF</a> •
+  <a href="https://t-atlas.github.io/zh/posts/2026/06/ai4air-survey/">Blog</a> •
   <a href="https://github.com/ICT-FinD-Lab/Awesome-LLMs-for-AI-Research">GitHub</a>
 </p>
 
